@@ -17,6 +17,13 @@ h1 {
   font-style: italic;
 }
 
+.btn-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
 button {
     background-color: goldenrod;
     color: #016f32;
