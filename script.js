@@ -1,9 +1,7 @@
-let firstCard = getRandomCard()
-let secondCard = getRandomCard()
-let sum = firstCard + secondCard
-let cards = [firstCard, secondCard] // array an ordered list of items
+let sum = 0
+let cards = []
 let hasBlackJack = false
-let isAlive = true
+let isAlive = false
 let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
@@ -17,11 +15,11 @@ function getRandomCard() {
         return 11
     } else {
         return randomNumber
-    }
-    
+    } 
 }
 
 function startGame() {
+    isAlive = true
     renderGame()
 }
 
