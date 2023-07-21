@@ -59,5 +59,5 @@ function newCard() {
 }
 
 function newGame() {
-    document.location.reload()
+    document.location.reload();
 }
